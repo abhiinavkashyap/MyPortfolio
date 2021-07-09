@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-container{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+.menu{
+    color:white;
+    font-size: 1.5em;
+    padding: 30px;
+    text-align: center;
+    min-width: 170px;
+}
+/* .image-container{
+    background-image: url('https://images.unsplash.com/photo-1622586757007-efda9475c347?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+}*/
+#banner-image{
+    width: 100%;
+    height: 80%;
+    opacity: 0.6;
+}
+.banner-title{
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    font-size: 5em;
+} 
+.banner-subtitle{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    font-size: 3em;
+}
+.profile-link{
+    position: absolute;
+    top: 15%;
+    right: 4%;
+}
+.skill-heading{
+    width: 100%;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.skill-title{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    width: 100%;
+}
+.skill{
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+
+}
+.skill-text{
+    font-size: 1.8em;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.skill-image-element{
+    width: 150px;
+    height: 150px;
+}
+.profile-image{
+    width: 50px;
+    height: 50px;
+}
+.project-heading{
+    width: 100%;
+    height: 50px;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.project-title{
+    text-align: center;
+}
+.project-icon{
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.project-info{
+    font-size: 1.8em;
+    margin-top: 120px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.bg{
+    background-color: lightcoral;
+}
